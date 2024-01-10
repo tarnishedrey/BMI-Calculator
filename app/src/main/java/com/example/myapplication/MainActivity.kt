@@ -1,4 +1,5 @@
 package com.example.myapplication
+
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.Button
@@ -12,6 +13,7 @@ import android.content.Intent
 
 class MainActivity : AppCompatActivity() {
     private var gender: String = "Laki-laki"
+
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
